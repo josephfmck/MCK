@@ -80,22 +80,53 @@ header li {
 
 /* MAIN SECTION*/
 
-#main {
-    background: #fae37f;
+#main-section {
+    background: white;
 }
 
 
 #main-col {
-    background: #021f30;
+    background: white;
     padding: 10px 20px;
-    color: #fff;
+    color: black;
 }
 
-#main-col h2 {
+#main-section h2 {
     text-align: center;
+    background: #f4f4f4;
+    color: black;
+    font-size: 30px;
+}
+
+#main-col p {
+    font-size: 20px;
 }
 
 
+/*AREA SECTION*/
+#area-section {
+    background: white;
+}
+
+#area-section h2 {
+    text-align: center;
+    background: #f4f4f4;
+    font-size: 30px;
+}
+
+#area-section .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+}
+
+
+
+
+
+
+
+/*FOOTER*/
 footer {
     padding: 5px;
     background-color: #01314e;
