@@ -6,7 +6,6 @@ body {
     padding: 0;
     margin: 0;
     background-color: #f4f4f4;
-
 }
 
 /* GLOBAL */
@@ -117,11 +116,30 @@ header li {
 #area-section .wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1em;
+    grid-gap: 4em;
 }
 
+    /*all direct ul in wrapper*/
+.wrapper > ul {
+    background: #f4f4f4;;
+    text-align: center;
+    border: 3px solid #05c9e2;
+}
 
+.wrapper li {
+    font-size: 20px;
+    margin-bottom: 2px;
+    background: #52EBFF;
+    padding: 10px 0px; 
+}
 
+.wrapper ul li:nth-child(odd) {
+    background: #297580;
+}
+
+.wrapper ul li:last-child {
+    margin-bottom: 0;
+}
 
 
 
