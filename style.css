@@ -5,7 +5,7 @@ body {
 
     padding: 0;
     margin: 0;
-    background-color: #f4f4f4;
+    background-color: white;
 }
 
 /* GLOBAL */
@@ -22,12 +22,16 @@ ul {
     list-style: none;   /*remove dots*/
 }
 
+h2 {
+    margin: 0;
+    padding: 0;
+}
 
 
 /* HEADER */
 
 header {
-    background: #01314e;
+    background: #0a2e5c;
     color: #fff;
     padding-top: 5px;
     min-height: 70px;   /*responsive adjusts when content smooshed*/
@@ -92,9 +96,11 @@ header li {
 
 #main-section h2 {
     text-align: center;
-    background: #f4f4f4;
-    color: black;
+    background: #0a2e5c;
+    color: white;
     font-size: 30px;
+    padding: 20px 0px;
+    margin: 5px 70px;
 }
 
 #main-col p {
@@ -109,8 +115,11 @@ header li {
 
 #area-section h2 {
     text-align: center;
-    background: #f4f4f4;
+    background: #0a2e5c;
+    color: white;
     font-size: 30px;
+    padding: 20px 0px;
+    margin: 5px 70px;
 }
 
 #area-section .wrapper {
@@ -142,12 +151,23 @@ header li {
 }
 
 
+/*CONTACT SECTION*/
+
+#contact-section h2 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background: #0a2e5c;
+    padding: 20px 0px;
+    margin: 5px 70px;
+}
+
 
 
 /*FOOTER*/
 footer {
     padding: 5px;
-    background-color: #01314e;
+    background-color: #0a2e5c;
     color: #fff;
     text-align: center;
     border-top: #05c9e2 3px solid;
